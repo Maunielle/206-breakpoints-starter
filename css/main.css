@@ -1,10 +1,38 @@
+body{
+  background: #db8787;
+}
+
+.header{
+  color: #7b7d70;
+  }
+
+.sub-header{
+  color: #4eafb8;
+  }
+
+.content{
+  color: #ff8641;
+  }
+
 
 /* ----------- Tablets larger than 768px wide ----------- */
+
 @media (min-width: 768px) {
 	body {
-    background: red;
+    background: white;
   }
 }
+.header{
+  color: #02cbd2;
+  }
+
+.sub-header{
+  color: #fcc02a;
+  }
+
+.content{
+  color: #7b8f8e;
+  }
 
 /* ----------- Monitors larger than 1200px wide ----------- */
 
@@ -13,3 +41,16 @@
         background: black;
     }
 }
+
+.header{
+  color: #6e4b61;
+  }
+
+.sub-header{
+  color: #cabd61;
+  }
+
+.content{
+  color: #c19e74;
+  }
+/* -
